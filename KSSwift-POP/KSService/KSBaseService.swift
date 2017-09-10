@@ -48,4 +48,8 @@ extension KSBaseService {
         return .post
     }
     
+    var parameter:Dictionary<String, Any> {
+        return [:]
+    }
+    
 }
