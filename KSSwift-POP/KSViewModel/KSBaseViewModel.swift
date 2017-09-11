@@ -114,6 +114,7 @@ extension KSServiceProtocol {
                                         switch response.result {
                                         case .success:
                                             if let value = response.result.value {
+                                                printLog(value);
                                                 success(request, value)
                                             }
                                         case .failure(let error):

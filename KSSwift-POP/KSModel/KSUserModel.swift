@@ -12,6 +12,4 @@ class KSUserModel: KSBaseModel {
     
     var origin:String?
     
-    required init() {}
-    
 }
